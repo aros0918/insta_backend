@@ -17,7 +17,7 @@ const app = express();
 const port = 3004;
 require('dotenv').config();
 const stripe = require('stripe')('sk_test_51Pcud0IgR4jDCRDTM0WtrIbDVdi71jGECuTnapQY8EpdMeB49Qiic35P9POsoKNFU4QXfDEJeJn8D8LYKnfbexPP00OLREidE9');
-const endpointSecret = 'whsec_f4103f88f7a41dd5892ccb98e72dae3ca79de65870270beafe67070be9f2a12e';
+const endpointSecret = 'whsec_aijsYh577SSOagYNyV7PamErURqgVeSF';
 let paymentStatus = '';
 // Ensure directories exist
 const ensureDirectoryExistence = (dir) => {
