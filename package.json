@@ -1,0 +1,62 @@
+{
+  "name": "instagram-bot-best",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+ 
+    
+    "serve": "nodemon ./backend index.js",
+    "dev:backend": "nodemon ./backend index.js"
+  },
+  "dependencies": {
+    "@ffmpeg-installer/ffmpeg": "^1.1.0",
+    "@selemondev/vue3-marquee": "^0.0.8",
+    "@stripe/stripe-js": "^4.1.0",
+    "@vueuse/core": "^10.11.0",
+    "archiver": "^7.0.1",
+    "axios": "^1.7.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.2",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "ejs": "^3.1.10",
+    "embla-carousel": "^8.1.5",
+    "embla-carousel-vue": "^8.1.5",
+    "express": "^4.19.2",
+    "ffmpeg": "^0.0.4",
+    "fluent-ffmpeg": "^2.1.3",
+    "insta-spider": "^1.0.2",
+    "jsonwebtoken": "^9.0.2",
+    "lucide-vue-next": "^0.395.0",
+    "mongodb": "^6.8.0",
+    "nodemon": "^3.1.4",
+    "pinia": "^2.1.7",
+    "puppeteer": "^22.12.1",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "radix-vue": "^1.8.4",
+    "stripe": "^16.2.0",
+    "tailwind-merge": "^2.3.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vue": "^3.4.29",
+    "vue-router": "^4.3.3",
+    "vue3-toastify": "^0.2.2",
+    "ws": "^8.18.0"
+  },
+  "devDependencies": {
+    "@tsconfig/node20": "^20.1.4",
+    "@types/node": "^20.14.5",
+    "@vitejs/plugin-vue": "^5.0.5",
+    "@vue/tsconfig": "^0.5.1",
+    "autoprefixer": "^10.4.19",
+    "npm-run-all2": "^6.2.0",
+    "shx": "^0.3.4",
+    "tailwindcss": "^3.4.4",
+    "typescript": "~5.4.0",
+    "vite": "^5.3.1",
+    "vue-tsc": "^2.0.21"
+  }
+}
