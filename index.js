@@ -138,6 +138,7 @@ app.post('/download', express.json(), authMiddleware, async (req, res) => {
         });
     } catch (error) {
         console.error('An error occurred:', error);
+        
         res.status(500).send('An error occurred during the process.');
     } finally {
         if (browser) {

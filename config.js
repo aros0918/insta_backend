@@ -1,5 +1,5 @@
 module.exports = {
-    apiUrl: 'http://localhost:3004',
+    apiUrl: 'https://insta-backend-7gjc.onrender.com',
     jwtSecret: 'instabot123',
     mongoUri:
         // 'mongodb://127.0.0.1:27017/test'
